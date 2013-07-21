@@ -71,7 +71,7 @@
      (let [alert-msg (<! alert-view)]
        (js/setTimeout
         #(dom/remove-class! alert-msg "new")
-        10)))))
+        200)))))
 
 (defn make-receiver []
   (set! (.-onmessage ws) (fn [msg] (put! receive msg)))
