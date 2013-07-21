@@ -1,6 +1,6 @@
 # cljs-core-async-chat
 
-A simple demo using [httpkit][1] and [core.async][2] to build a WebSocket-based, extremely dumb chat system.
+A simple demo using [httpkit][1] and [core.async][2] to build a WebSocket-based, extremely dumb chat system.  Uses a fair bit of [domina][5] too, I should mention.
 
 The usual caveats in terms of browser-compatibility with WebSocket applies.
 
@@ -39,3 +39,4 @@ Copyright © 2013 Dave Della Costa
 [2]: https://github.com/clojure/core.async
 [3]: https://github.com/swannodette/async-tests
 [4]: https://github.com/technomancy/leiningen
+[5]: https://github.com/levand/domina
