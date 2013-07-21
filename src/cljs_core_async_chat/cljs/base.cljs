@@ -13,8 +13,7 @@
 (def receive (chan))
 (def alert-view (chan))
 
-;;(def ws-url "ws://localhost:3000/async")
-(def ws-url "ws://192.168.0.4:3000/async")
+(def ws-url "ws://localhost:3000/async")
 (def ws (new js/WebSocket ws-url))
 
 ;; Lifted almost completely from dnolen: 
