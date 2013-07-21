@@ -5,7 +5,7 @@
    [domina.events :as events]
    [cljs.core.async :refer [chan <! >! put!]]
    [cljs.reader :as reader]
-   [cljs-core-async.cljs.util :as util]
+   [cljs-core-async-chat.cljs.util :as util])
   (:require-macros
    [cljs.core.async.macros :refer [go]]))
 

@@ -1,6 +1,6 @@
 (defproject cljs-core-async-chat "0.1.0-SNAPSHOT"
   :description "simple demo of WebSocket-based chat using httpkit and core.async"
-  :url "http://github.com/ddellacosta/cljs-core-async-chat"
+  :url "https://github.com/ddellacosta/cljs-core-async-chat"
 
   :repositories {"sonatype-oss-public"
                  "https://oss.sonatype.org/content/groups/public/"}
