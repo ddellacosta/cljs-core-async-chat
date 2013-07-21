@@ -8,8 +8,9 @@ Thanks go to David Nolen for his [copious examples][3] of how to use core.async 
 
 ## Todos
 
+* Properly setup/teardown WebSocket connection. Kind of a lazy hack now.
 * Get core.async working with httpkit on the server side.
-* Flesh it out more to really take advantage of core.async.
+* See if I can take better advantage of core.async doing DOM manipulation, among other things...
 
 ## Running
 

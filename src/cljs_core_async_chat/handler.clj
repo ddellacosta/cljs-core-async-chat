@@ -4,7 +4,7 @@
   (:require
    [clojure.edn :as edn]
    [org.httpkit.server :as httpkit]
-   [cljs-core-async.middleware :refer [wrap-timbre]]
+   [cljs-core-async-chat.middleware :refer [wrap-timbre]]
    [compojure.handler :as handler]
    [compojure.route :as route]
    [clj-time.local :as lt]
