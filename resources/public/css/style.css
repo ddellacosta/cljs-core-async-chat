@@ -1,0 +1,33 @@
+body {
+    font-family: Futura;
+    background-color: #E5E4E2;
+    color: #151B54;
+}
+
+h2 {
+    color: #544E15
+}
+
+div#content {
+    background-color: #F9FFFF;
+    border: 3px solid #54151B;
+}
+
+div.msg {
+    background-color: #F9FFFF;
+    transition: background-color 2s ease-in;
+}
+
+div.msg.new {
+    background-color: #3BB9FF;
+}
+
+span.name {
+    background-color: #1589FF;
+    color: #fff;
+}
+
+div.me span.name {
+    color: #1589FF;
+    background-color: #fff;
+}
