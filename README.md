@@ -4,7 +4,7 @@ A simple demo using [httpkit][1] and [core.async][2] to build a WebSocket-based,
 
 The usual caveats in terms of browser-compatibility with WebSocket applies.
 
-Thanks go to [David Nolen](https://github.com/swannodette) for his [copious examples][3] of how to use core.async in ClojureScript (and all his work on CLJS and core.async!), as well as random help in IRC when first getting going.  Also thanks to [Chris Allen](https://github.com/bitemyapp/) for suggesting the use of httpkit for WebSockets.
+Thanks go to [David Nolen](https://github.com/swannodette) for his [copious examples][3] of how to use core.async in ClojureScript (and all his work on CLJS and core.async!), as well as random help in IRC when first getting going.
 
 ## Todos
 
